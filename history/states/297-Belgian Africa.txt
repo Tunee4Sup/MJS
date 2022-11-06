@@ -10,6 +10,7 @@ state=
 	{
 		owner = SPR
 		add_core_of = RCG
+		add_core_of = RIF
 		victory_points = {
 			1903 1 
 		}
