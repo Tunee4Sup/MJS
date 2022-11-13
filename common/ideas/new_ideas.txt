@@ -1,0 +1,30 @@
+ideas = {
+	country = {
+		Corrupted_Economy = {
+
+			picture = great_depression
+		
+			allowed = {
+			
+			}
+			
+			available = {
+			
+			}
+			
+			cancel = {
+			
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.1
+			}
+		}
+	}
+}
