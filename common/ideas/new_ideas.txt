@@ -26,5 +26,30 @@ ideas = {
 				consumer_goods_factor = 0.1
 			}
 		}
+		
+		Integrating_Korea = {
+
+			picture = FRA_matignon_agreements
+		
+			allowed = {
+			
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_cost = 0.1
+			}
+		}
 	}
 }

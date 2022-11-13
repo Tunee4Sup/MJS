@@ -2282,7 +2282,7 @@
 		y = 1
 		relative_position_id = CHI_forced_loans
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 1
@@ -2290,7 +2290,10 @@
 
 		available = {
 			has_idea = Corrupted_Economy
-			date = 1939.01.01
+			OR = {
+				has_war_with = JAP
+				date = 1939.01.01
+			}
 		}
 
 		bypass = {

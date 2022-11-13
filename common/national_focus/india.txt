@@ -3818,6 +3818,15 @@ focus_tree = {
 			add_state_core = 442
 			add_state_core = 787
 			remove_ideas = RAJ_marginalized_muslim_community
+			PAK = {
+				remove_state_core = 444
+				remove_state_core = 443
+				remove_state_core = 445
+				remove_state_core = 440
+				remove_state_core = 442
+				remove_state_core = 787
+				remove_state_core = 430
+			}
 		}
 	}
 

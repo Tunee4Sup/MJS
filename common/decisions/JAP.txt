@@ -1408,6 +1408,7 @@ political_actions = {
 	JAP_russia_cores = {
 		available = {
 			if = {
+				tag = JAP
 				controls_state = 408
 				controls_state = 409
 				controls_state = 655
@@ -1425,6 +1426,42 @@ political_actions = {
 			add_state_core = 408
 			add_state_core = 409
 			add_state_core = 655
+		}
+	}
+	Jap_Korea_1 = {
+		available = {
+			has_civil_war = no
+			date = 1938.01.01
+		}
+		icon = GFX_decision_eng_trade_unions_support
+		fire_only_once = yes
+		cost = 100
+		complete_effect = {
+			add_ideas = Integrating_Korea
+		}
+	}
+	
+	JAP_korea_cores = {
+		activation = {
+			has_idea = Integrating_Korea
+		}
+		available = {
+			has_civil_war = yes
+		}
+		icon = GFX_decision_eng_trade_unions_support
+		fire_only_once = yes
+		days_mission_timeout = 365
+		days_remove = 200
+		ai_will_do = {
+			factor = 10
+		}
+
+		cost = 100
+
+		timeout_effect = {
+			add_state_core = 525
+			add_state_core = 527
+			remove_ideas = Integrating_Korea
 		}
 	}
 	JAP_break_the_london_naval_treaty = {
